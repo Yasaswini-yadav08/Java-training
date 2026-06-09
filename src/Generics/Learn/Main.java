@@ -2,6 +2,8 @@ package Generics.Learn;
 
 public class Main {
     public static void main(String[] args) {
+        content<Integer> c = new content<>();
+        c.setName(01);
         content<String> c1 = new content<>();
         c1.setName("Chinni");
         System.out.println(c1.getName());
